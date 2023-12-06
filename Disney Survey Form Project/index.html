@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="styles.css">
+<title>Disney Survey Form</title>
+<h1 id="title">Enhancing the Magical Experience: Disney Fan Feedback</h1>
+<p id="description">Thanks for enhancing Disney magic! Your insights make a difference. We appreciate your passion</p>
+<form id="survey-form">
+  <div class="input-elements">
+    <label id="name-label">
+      Name
+    </label>
+    <input placeholder="name" id="name" type="text" required>
+  </div>
+  <div class="input-elements">
+    <label id="email-label">
+      Email
+    </label>
+    <input placeholder="email" id="email" type="email" required>
+  </div>
+  <div class="input-elements">
+    <label id="number-label">
+      Age
+    </label>
+    <input placeholder="age" id="number" min="18" max="65 "type="number" required>
+  </div>
+  <div class="input-elements">
+    <label id="select-label">
+      Select your favourite Disney theme park:
+    </label>
+    <select id="dropdown">
+      <option>Disneyland</option>
+      <option>Walt Disney World</option>
+      <option>Tokyo Disney Resort</option>
+      <option>Disneyland Paris</option>
+      <option>Hong Kong Disneyland</option>
+      <option>Shanghai Disney Resort</option>
+      <option>I haven't visited any yet</option>
+    </select>
+  </div>
+  <div>
+    <label>Have you ever visited a Disney theme park?</label>
+  </div>
+  <div>
+    <label><input type="radio" name="theme-park" value="yes"/>Yes</label>
+  </div>
+  <div>
+    <label><input type="radio" name="theme-park" value="no"/>No</label>
+  </div>
+  <div>
+    <label>Which Disney movie genres do you enjoy? (Select all that apply)</label>
+  </div>
+  <div>
+    <label><input type="checkbox" name="movies" value="classics"/>Animated Classics</label>
+  </div>
+  <div>
+    <label><input type="checkbox" name="movies" value="pixar"/>Pixar Movies</label>
+  </div>
+  <div>
+    <label><input type="checkbox" name="movies" value="live-action"/>Live-Action Adaptations</label>
+  </div>
+  <div>
+    <label><input type="checkbox" name="movies" value="musicals"/>Musicals</label>
+  </div>
+  <div>
+    <label>Additional Comments:</label>
+    <textarea type="text"></textarea>
+  </div>
+  <button type="submit" id="submit"> Submit</button>
+</form>
