@@ -2,6 +2,9 @@
 
 Welcome to the Disney Fan Feedback Survey Form! This project was created as part of the FreeCodeCamp Responsive Web Design course.
 
+![Disney Survey Form Image](https://github.com/madeehalasker/Disney-Survey-Form/assets/134102199/6cc2641a-bb76-4fce-9b65-fbf51c1f9049)
+
+
 ## Project Overview
 
 This survey form is designed to collect feedback and insights from Disney fans. It showcases HTML and CSS skills, demonstrating a responsive and visually appealing design.
