@@ -24,6 +24,4 @@ This survey form is designed to collect feedback and insights from Disney fans. 
 - `index.html`: The main HTML file containing the structure of the survey form.
 - `styles.css`: The CSS file with styles for the survey form.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
